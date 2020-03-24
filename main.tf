@@ -5,7 +5,7 @@ provider "google" {
 
 terraform {
     backend "gcs" {
-        bucket = "test-be_yanagihara_taro"
+        bucket = ""
         path = "terraform.tfstate"
     }
 }
